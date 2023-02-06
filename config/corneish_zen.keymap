@@ -43,14 +43,14 @@
                 symbol_layer {
                         label = "SYMBOLS";
 // -----------------------------------------------------------------------------------------
-// |     |     |  @  |  \  |  %  |   |     |  ^  |     |     |     |
+// |     |     |  @  |  \  |  %  |   |     |  ^  |  $  |     |     |
 // |  +  |  !  |  (  |  )  |  &  |   |  |  |  _  |  -  |  =  |  "  |
 // |  `  |  *  |  {  |  }  |  ~  |   |  #  |  [  |  ]  |  %  | '   |
 //     | ENTER | NUMBERS | SPACE |   | BSPC | NUMBERS  | ESC |
                         bindings = <
-   &trans     &trans    &kp AT    &kp BSLH &trans       &trans   &kp CARET &trans    &trans      &trans
-   &kp PLUS   &kp EXCL  &kp LPAR  &kp RPAR &kp AMPS     &kp PIPE &kp UNDER &kp MINUS &kp EQUAL   &kp DOUBLE_QUOTES
-   &kp GRAVE  &kp STAR  &kp LBRC  &kp RBRC &kp TILDE    &kp HASH &kp LBKT  &kp RBKT  &kp PERCENT &kp SINGLE_QUOTE
+   &trans     &trans    &kp AT    &kp BSLH &trans       &trans   &kp CARET &kp DOLLAR &trans      &trans
+   &kp PLUS   &kp EXCL  &kp LPAR  &kp RPAR &kp AMPS     &kp PIPE &kp UNDER &kp MINUS  &kp EQUAL   &kp DOUBLE_QUOTES
+   &kp GRAVE  &kp STAR  &kp LBRC  &kp RBRC &kp TILDE    &kp HASH &kp LBKT  &kp RBKT   &kp PERCENT &kp SINGLE_QUOTE
                     &kp ENTER &to DEFAULT &kp SPACE     &kp BSPC &to NUMBERS  &kp ESC
                         >;
                 };
